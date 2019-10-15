@@ -1,0 +1,181 @@
+<html>
+<head>
+<title>title 元素的内容会显示在浏览器的标题栏中</title>
+</head>
+
+<body bgcolor="white">
+<p>bgcolor可以改变背景颜色</p>
+<p>body元素的内容会显示在浏览器内<p>
+
+<h1><a name="jump">这是标题</a></h1>
+<h1 align="center">标题可以居中排列</h>
+<h2>请确保标题元素仅仅用来显示标题</h2>
+<h3>而非用来加粗</h3>
+<h4>加粗请使用对应的css代替</h4>
+<hr/>
+<p>hr标签定义水平线<p>
+
+<p>这是段落</p>
+<p>段落的行数取决于浏览器的大小，而不取决于你在这个段落里按了多少回车(此处有回车)
+你可以改变浏览器大小来观察行数的改变</p>
+<p>如果你想要折行<br/>需要依靠br/标签来改变</p>
+<hr/>
+<p>这里展示如何对文本格式化 <br/>
+  <b>This text is blod</b><br/>
+  <strong>This text is strong</strong><br/>
+  <big>This text is big</big><br/>
+  <small>This test is samll</small><br/>
+  <em>This text is emphasized</em><br/>
+  <i>This text is italic</i><br/>
+  This text contains<sub>subscript</sub><br/>
+  This text contains<sup>superscript</sup>
+  <pre>
+  这是预文本格式
+  保留了空格  和
+  换行
+  可以用来显示代码
+  </pre>
+  <del>这是删除文本</del><br/>
+  <ins>这是下划线</ins>
+</p>
+<hr/>
+<p>常用以下标签显示编程代码<br/>
+  <code>Computer code</code><br/>
+  <kbd>Keyboard input</kbd><br/>
+  <tt>Teletype text</tt><br/>
+  <samp>Sample text</samp><br/>
+  <var>Computer variable</var>
+</p>
+<hr/>
+<p>插入地址</br>
+<address>
+  Written by <a href="#">XYZ</a><br/>
+  Box 456, AAA</br>
+  CN
+</address>
+<hr/>
+<p>当你把鼠标移动到缩略词上时，可以看到完整版<br/>
+  <abbr tittle="Convolution Nerual Network">CNN</abbr>
+</p>
+<hr/>
+<p>连接</p>
+<a href="#" target="_blank">属性设置为blank，即可在新窗口中打开链接</a><br/>
+<p>将图片设置为链接<br/>
+<a href="#"><img src="https://tse4-mm.cn.bing.net/th?id=OIP.MUjk98XO7UNkKozOrnuS5gHaHa&w=126&h=128&c=7&o=5&dpr=1.35&pid=1.7"></a>
+</p>
+<p>
+  这是邮件链接：
+ <a href="mailto:2222@outlook.com?subject=Hello%20again">发送邮件，内容为“Hello again”</a>
+ </p>
+<p>跳转到页面的不同位置<br/>
+<a href="#jump">查看标题</a>
+</p>
+<hr/>
+<p>表格</p>
+<table border="1" cellpadding="10" cellspacing="5">
+  <tr>
+    <th>Heading</th>
+    <th>Another Heading</th>   
+  </tr>
+  <tr><th colspan="2">the third heading</th></tr>
+  
+  <tr>
+    <td align="right"> Row 1, cell 1</td>
+    <td align="center"> Row 1, cell 2</td>
+  </tr>
+  <tr>
+    <td rowspan="2"> Row 2, cell 1</td>
+    <td bgcolor="gray"> Row 2, cell 2</td>
+  </tr>
+  <tr>
+    <td background="https://tse1-mm.cn.bing.net/th?id=OIP.jU4QuM6RAXvDCoihIRJINAHaHH&w=142&h=147&c=7&o=5&dpr=1.35&pid=1.7"> Row 3,cell2</td>
+  </tr>
+</table>
+<hr/>
+<p>列表</p>
+<p>这是一个无序列表</p>
+<ul>
+  <li>coffee</li>
+  <li>tea</li>
+  <li>milk</li>
+</ul>
+<p>这是一个有序列表</p>
+<ol>
+  <li>morning</li>
+  <li>afternoon</li>
+  <li>evening</li>
+</ol>
+<p>不同的无序列表</p>
+<ul type="disc">
+  <li>apple</li>
+  <li>orange</li>
+</ul>
+<ul type="circle">
+  <li>apple</li>
+  <li>orange</li>
+</ul>
+<ul type="square">
+  <li>apple</li>
+  <li>orange</li>
+</ul>
+<p>不同类型的有序列表</p>
+<ol type="A">
+  <li>apple</li>
+  <li>orange</li>
+</ol>
+<ol type="a">
+  <li>apple</li>
+  <li>orange</li>
+</ol>
+<ol type="I">
+  <li>apple</li>
+  <li>orange</li>
+</ol>
+<ol type="i">
+  <li>apple</li>
+  <li>orange</li>
+</ol>
+<p>定义列表</p>
+<dl>
+  <dt>CNN</dt>
+  <dd>A deep neural network</dd>
+</dl>
+<hr/>
+<p>表单与文本域</p>
+<p>文本域</p>
+<form>
+  name:<input type="text" name="name">
+</form>
+<p>密码域</p>
+<form>
+  password:<input type="password" name="password">
+</form>
+<p>复选框</p>
+<form>
+  Bike<input type="checkbox" name="Bike">
+</form>
+<p>单选按钮</p>
+<form>
+  Bike<input type="radio" checkd="checked" name="Transport" value="bike"/><br/>
+  Car<input type="radio" name="Transport" vale="car">
+</form>
+<p>下拉列表</p>
+<form>
+  <select name="cars">
+    <option value="car">Car</option>
+    <option value="bike">Bike</option>
+  </select>
+</form>
+<p>按钮</p>
+<form>
+  <input type="button" value="Hello World!">
+</form>
+<hr/>
+<p>图像</p>
+<p>调整图像大小</p>
+<img src="https://tse4-mm.cn.bing.net/th?id=OIP.MUjk98XO7UNkKozOrnuS5gHaHa&w=126&h=128&c=7&o=5&dpr=1.35&pid=1.7" width="50" height="50">
+<p>当图片无法显示时，用文本替代</p>
+<img src="https://tse4-mm.cn.bing.net/th?id=OIP.MUjk98XO7UNkKozOrnuS5gHaHa&w=126&h=128&c=7&o=5&dpr=1.35&pid=1.7" alt="mail"/>
+</body>
+</html>
+
